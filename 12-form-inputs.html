@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form method="post" action="/account/login" >
+   
+        <input type="text" name="firstname"><br>
+        <input type="number" name="title"><br>
+        <input type="email" name="email"><br>
+        <input type="password"><br>
+        <input type="source"><br>
+        <input type="url"><br>
+        <input type="tel"><br>
+        <input type="hidden"><br>
+        
+       <input type="checkbox" name="user" id="usr" checked>
+       <label for="usr">kullanıcı sözleşmesini okudum</label><br>
+       <input type="checkbox" name="sales" id="sl" >
+       <label for="sl">Stıi sözleşmesini okudum</label><br>
+
+       <input type="radio" name="gender" id="genderM">
+       <label for="genderM">Erkek</label>
+       <input type="radio" name="gender" id="genderF">
+       <label for="genderF">Kadın</label><br>
+
+        <input type="file" name="avatar" ><br>
+        <input type="color" name="renk"><br>
+
+        <input type="range" name="salary"><br>
+
+        <input type="date" name="doğum"><br>
+        <input type="time"><br>
+        <input type="datetime-local" name="dt"><br>
+        <input type="month" name="mn"><br>
+        <input type="week" name="wk"><br>
+
+
+        <select name="city" >
+            <option value="34" disabled selected>İstanbul</option>
+            <option value="35">İzmir</option>
+            <option value="06">Ankara</option>
+        </select><br>
+
+        <select name="country" size="5" >
+            <option value="34">Türkiye</option>
+            <option value="35">Almanya</option>
+            <option value="06">Fransa</option>
+        </select><br>
+
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        <input type="button" value="Custom">
+        <input type="submit" value="Save">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
